@@ -62,11 +62,14 @@ dependencies {
 
 ## 📚 Documentation
 
-Explore the full documentation for detailed guides on building, evaluating, and
-deploying agents:
+Explore the [full documentation](https://google.github.io/adk-docs) for detailed guides on building, evaluating, and
+deploying agents. Core concepts:
 
-* **[Documentation](https://google.github.io/adk-docs)**
-
+* **[Agents](https://google.github.io/adk-docs/agents/)**: Self-contained execution unit designed to tasks, interact with users, utilize external tools, and coordinate with other agents.
+* **[Tools](https://google.github.io/adk-docs/tools/)**: Capabilities provided to agents enabling them to perform actions and interact with the world beyond core text generation and reasoning.
+* **[Sessions and Memory](https://google.github.io/adk-docs/sessions/)**: Structured ways to manage this context.
+* **[Observability](https://google.github.io/adk-docs/observability/)**: Tracking and logging of agent runs to test, debug, and optimize agent workflows.
+* **[Deployment](https://google.github.io/adk-docs/deploy/)**: Move agents from local development to a scalable and reliable environments.
 ## 🤝 Contributing
 
 We welcome contributions from the community! Whether it's bug reports, feature
